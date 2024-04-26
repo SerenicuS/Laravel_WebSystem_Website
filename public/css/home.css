@@ -1,0 +1,268 @@
+#home-container{
+    width: 100%;
+    height: 100vh;
+    background-color:black;
+    font-family: Poppins;
+    color: white;
+}
+
+.logo {
+    width: 65px;
+    transform: translate(-150px, -14px);
+    vertical-align: middle;
+    position:absolute;
+}
+
+.nav-page-container nav i{
+    position:absolute;
+    transform:  translate(1580px, -37px);
+    font-size: 30px;
+}
+
+
+
+nav ul {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%; 
+    margin-left: -500px;
+}
+
+nav ul li {
+    margin: 5px 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    position: relative;
+}
+
+nav ul li a::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background: gray;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.2s;
+}
+
+nav ul li a:hover::after {
+    width: 100%;
+}
+
+.nav-page-container{
+    padding: 15px 10%;
+    border:2px solid black;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+/* hero page*/
+
+.hero-page-container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    font-size: 30px;
+    position: relative; 
+    padding: 0 10%; 
+    width:100%;
+    height:90%;
+}
+
+.image-container{
+    width:300vh;
+
+}
+
+.text-container {
+    margin-top: 10px;
+    width: 150%;
+}
+
+.hero-page-container h1 {
+    font-style: italic;
+    margin-bottom: 50px;
+}
+
+
+.hero {
+    width: 80%;
+    height:auto;
+    margin-left: 300px;
+    margin-top: 135px;
+}
+
+
+ul {
+    margin: 0px;
+    padding: 0px;
+  }
+  .footer-section {
+  background: #151414;
+  position: relative;
+  }
+  .footer-cta {
+  border-bottom: 1px solid #373636;
+  }
+  .single-cta i {
+  color: white;
+  font-size: 30px;
+  float: left;
+  margin-top: 8px;
+  }
+  .cta-text {
+  padding-left: 15px;
+  display: inline-block;
+  }
+  .cta-text h4 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 2px;
+  }
+  .cta-text span {
+  color: #757575;
+  font-size: 15px;
+  }
+  .footer-content {
+  position: relative;
+  z-index: 2;
+  }
+  .footer-pattern img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 330px;
+  background-size: cover;
+  background-position: 100% 100%;
+  }
+  .footer-logo {
+  margin-bottom: 30px;
+  }
+  .footer-logo img {
+    max-width: 300px;
+  }
+  .footer-text p {
+  margin-bottom: 14px;
+  font-size: 14px;
+      color: #7e7e7e;
+  line-height: 28px;
+  }
+  .footer-social-icon span {
+  color: #fff;
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 20px;
+  }
+  .footer-social-icon a {
+  color: #fff;
+  font-size: 16px;
+  margin-right: 15px;
+  }
+  .footer-social-icon i {
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  line-height: 38px;
+  border-radius: 50%;
+  }
+  .facebook-bg{
+  background: #3B5998;
+  }
+  .twitter-bg{
+  background: #55ACEE;
+  }
+  .google-bg{
+  background: #DD4B39;
+  }
+  .footer-widget-heading h3 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  position: relative;
+  }
+  .footer-widget-heading h3::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -15px;
+  height: 2px;
+  width: 50px;
+  background: white;
+  }
+  .footer-widget ul li {
+  display: inline-block;
+  float: left;
+  width: 50%;
+  margin-bottom: 12px;
+  }
+  .footer-widget ul li a:hover{
+  color: white;
+  }
+  .footer-widget ul li a {
+  color: #878787;
+  text-transform: capitalize;
+  }
+  .subscribe-form {
+  position: relative;
+  overflow: hidden;
+  }
+  .subscribe-form input {
+  width: 100%;
+  padding: 14px 28px;
+  background: #2E2E2E;
+  border: 1px solid #2E2E2E;
+  color: #fff;
+  }
+  .subscribe-form button {
+    position: absolute;
+    right: 0;
+    background: white;
+    padding: 13px 20px;
+    border: 1px solid white;
+    top: 0;
+  }
+  .subscribe-form button i {
+  color: black;
+  font-size: 22px;
+  transform: rotate(-6deg);
+  }
+  .copyright-area{
+  background: #202020;
+  padding: 25px 0;
+  }
+  .copyright-text p {
+  margin: 0;
+  font-size: 14px;
+  color: #878787;
+  }
+  .copyright-text p a{
+  color: white;
+  }
+  .footer-menu li {
+  display: inline-block;
+  margin-left: 20px;
+  }
+  .footer-menu li:hover a{
+  color: white;
+  }
+  .footer-menu li a {
+  font-size: 14px;
+  color: #878787;
+  }
+  
+  
+  
+  
