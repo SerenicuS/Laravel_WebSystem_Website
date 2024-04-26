@@ -16,7 +16,7 @@
                     <h1> We Believe</h1>
                     <h4><em> Join us now!</em></h4>
                     <h2>Register</h2>
-                    <form action="register.php" method="POST">
+                    <form method="POST" action="{{ route('custom.register') }}"> 
                         <div class="email-container">
                             <i class="fa-solid fa-envelope"></i>
                             <label for="email">Email:</label>

@@ -7,15 +7,21 @@ use App\Http\Controllers\CustomLoginController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\JobController;
 use App\Http\Controllers\ShowCaseController;
+use Illuminate\Contracts\Cache\Store;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('home');
 });
 
+
+
 Route::get('/home', [HomeController::class, 'index'])->name('home');
 
-Route::get('/custom-register', [CustomRegistrationController::class, 'index'])->name('custom.register');
+Route::post('/custom-register', 'Auth\CustomRegistrationController@store')->name('custom.register');
+
+
+
 
 Route::get('/custom-login', [CustomLoginController::class, 'index'])->name('custom.login');
 
@@ -36,3 +42,4 @@ Route::middleware('auth')->group(function () {
 });
 
 require __DIR__.'/auth.php';
+
