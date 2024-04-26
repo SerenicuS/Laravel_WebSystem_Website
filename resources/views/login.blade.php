@@ -16,7 +16,7 @@
                     <h1> We Believe</h1>
                     <h4><em> Providing Extraordinary to Unique Individuals</em></h4>
                     <h2>Login</h2>
-                    <form action="login.php" method="POST">
+                    <form action="{{ route('home') }}" method="POST">
                         <div class="email-container">
                             <i class="fa-solid fa-envelope"></i>
                             <label for="email">Email:</label>
@@ -33,7 +33,7 @@
                     </form>
 
                 <div class="otherlinks-container">
-                    <h5>Don't have an account? Register <a href="{{ route('custom.register') }}">here</a></h5>
+                    <h5>Don't have an account? Register <a href="{{ route('registration') }}">here</a></h5>
                 </div>
             </div>
           

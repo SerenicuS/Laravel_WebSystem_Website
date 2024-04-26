@@ -10,4 +10,6 @@ class CustomLoginController extends Controller
     {
         return view('login');
     }
+
+   
 }

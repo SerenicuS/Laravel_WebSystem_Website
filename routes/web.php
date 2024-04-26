@@ -18,7 +18,10 @@ Route::get('/', function () {
 
 Route::get('/home', [HomeController::class, 'index'])->name('home');
 
-Route::post('/custom-register', 'Auth\CustomRegistrationController@store')->name('custom.register');
+//Auth\CustomRegistrationController@store'
+
+Route::get('registration', [CustomRegistrationController::class, 'index'])->name('registration');
+Route::post('registration', [CustomRegistrationController::class, 'store'])->name('registration');
 
 
 

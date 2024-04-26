@@ -16,7 +16,8 @@
                     <h1> We Believe</h1>
                     <h4><em> Join us now!</em></h4>
                     <h2>Register</h2>
-                    <form method="POST" action="{{ route('custom.register') }}"> 
+                    <form method="POST" action="{{ route('registration') }}"> 
+                    @csrf
                         <div class="email-container">
                             <i class="fa-solid fa-envelope"></i>
                             <label for="email">Email:</label>
@@ -30,8 +31,8 @@
                                
                                 
                                 <i class="fa-solid fa-key custom-icon"></i>
-                                <label for="Confirm Password">Confirm Password:</label>
-                                <input type="confirmPassword" id="confirmPassword" name="confirmPassword" required>
+                                <label for="confirmPassword">Confirm Password:</label>
+                                <input type="password" id="confirmPassword" name="password_confirmation" required>
                                 </div>
                             <input type="submit" value="Register">
                         </div>
