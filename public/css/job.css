@@ -118,7 +118,7 @@ body, html {
 
 .logo {
     width: 65px;
-    transform: translate(-891px, -14px);
+    transform: translate(-900px, -14px);
     vertical-align: middle;
     position:absolute;
 }
@@ -168,6 +168,7 @@ nav ul li a:hover::after {
     box-sizing: border-box;
     justify-content: center;
     margin-top: 0px;
+    background-color:#202020;
 }
 
 .text-container {
@@ -182,3 +183,38 @@ nav-container{
    
 }
 
+.search-container {
+    display: flex;
+    justify-content: center; /* Horizontally center the contents */
+    align-items: center; /* Vertically center the contents */
+    height: 100px; /* Make the container full height of the viewport */
+    color:white;
+}
+
+.search-container form {
+    text-align: center; /* Center the form contents */
+}
+
+.search-container input[type="text"],
+.search-container button {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+
+.search-container button {
+    background-color: gray;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .search-container {
+        padding: 0 20px; /* Add padding on smaller screens */
+    }
+}

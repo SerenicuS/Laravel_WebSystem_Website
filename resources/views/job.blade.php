@@ -23,61 +23,68 @@
                     <li><a href ="{{ route('job') }}"> Available Jobs </a></li>
                     <li><a href ="{{ route('contact') }}"> Contact Us </a></li>
                 </ul>
-                <i class="fa-regular fa-user"></i>
+                <a href="your_link_here" style="color: inherit; text-decoration: none;">
+                    <i class="fa-regular fa-user"></i>
+                </a>
             
             </nav>
             </div>
     </div>
   
     <div class="container">
-        <h1 class = "sub-title"> Available Jobs</h1>
+        <div class ="search-container">
+        <h2> You want a specific job? Search here
+        <form action="/search" method="GET">
+        <input type="text" name="query" placeholder="Enter your search query">
+        <button type="submit">Search</button>
+    </form>
+        </div>
+
         <div class="work-list">
             <div class="work">
 
                 <img src = "{{ asset('images/accountant.jpg') }}">
                 <div class="layer">
-                    <h3> Water Level Sensor in Arduino</h3>
-                    <p> Created a sensor for water level in Arduino</p>
+                    <h3> Bank Database Administrator</h3>
+                 
                     <a href="{{ route('showcaseitem') }}"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                 </div>
             </div>
             <div class="work">
                 <img src = "{{ asset('images/computerrepair.jpg') }}">
                 <div class="layer">
-                    <h3> DICT Startup Competition</h3>
-                    <p> Participated in DICT Startup Competition</p>
+                    <h3> Computer Technician</h3>
+                
                     <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                 </div>
             </div>
             <div class="work">
                 <img src = "{{ asset('images/programmer.jpg') }}">
                 <div class="layer">
-                    <h3> CatVille Game</h3>
-                    <p> Created a simple interaction Game about petting cats</p>
+                    <h3> Senior Developer</h3>
+             
                     <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                 </div>
             </div>
             <div class="work">
                 <img src = "{{ asset('images/accountant.jpg') }}">
                 <div class="layer">
-                    <h3> CatVille Game</h3>
-                    <p> Created a simple interaction Game about petting cats</p>
+              
+                   
                     <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                 </div>
             </div>
             <div class="work">
                 <img src = "{{ asset('images/computerrepair.jpg') }}">
                 <div class="layer">
-                    <h3> CatVille Game</h3>
-                    <p> Created a simple interaction Game about petting cats</p>
+                  
                     <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                 </div>
             </div>
             <div class="work">
                 <img src = "{{ asset('images/programmer.jpg') }}">
                 <div class="layer">
-                    <h3> CatVille Game</h3>
-                    <p> Created a simple interaction Game about petting cats</p>
+                   
                     <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                 </div>
             </div>

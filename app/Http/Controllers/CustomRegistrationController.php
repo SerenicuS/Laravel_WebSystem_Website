@@ -29,11 +29,12 @@ class CustomRegistrationController extends Controller
         user_db::create([
             'email' => $request->email,
             'password' => Hash::make($request->password),
+            'role' => 'user'
         ]);
 
 
         // Redirect to a success page or return a response
-        return redirect()->route('home');
+        return redirect()->route('custom.login')->with('success', 'Registration successful!');
         } catch (\Exception $e) {
             // Log any exceptions
             error_log('Exception occurred: ' . $e->getMessage());

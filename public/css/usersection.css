@@ -1,0 +1,362 @@
+
+.body{
+    text-align: center;
+    background-color: black;
+    font-family: Poppins;
+}
+
+body {
+background: black;
+font-family: "Open sans", sans-serif;
+}
+a {
+text-decoration: none;
+color: #3498db;
+}
+.content-profile-page {
+margin: 1em auto;
+width: 44.23em;
+}
+
+.card {
+background: #fff;
+border-radius: 0.3rem;
+box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+border: .1em solid rgba(0, 0, 0, 0.2);
+margin-bottom: 1em; 
+}
+
+.profile-user-page .img-user-profile {
+margin: 0 auto;
+text-align: center; 
+}
+.profile-user-page .img-user-profile .profile-bgHome {
+border-bottom: .2em solid #f5f5f5;
+width: 44.23em;
+height: 16em;
+overflow: hidden;
+}
+
+.profile-user-page .img-user-profile .profile-bgHome img {
+max-width: 140%; /* Ensure the image doesn't exceed the container width */
+max-height: auto; /* Ensure the image doesn't exceed the container height */
+
+}
+.profile-user-page .img-user-profile .avatar {
+margin: 0 auto;
+background: #fff;
+width: 7em;
+height: 7em;
+padding: 0.25em;
+border-radius: .4em;
+margin-top: -10em;
+box-shadow: 0 0 .1em rgba(0, 0, 0, 0.35);
+}
+.profile-user-page button {
+position: absolute;
+font-size: 13px;
+font-weight: bold;
+cursor: pointer;
+width: 7em; 
+background: gray;
+border: 1px solid gray;
+color: white;
+outline: none;
+border-radius: 0 .6em .6em 0;
+padding: .80em;
+margin-left: -355px;
+}
+
+.profile-user-page button:hover {
+background: black;
+transition: background .2s ease-in-out;
+border: 1px solid black;
+}
+.profile-user-page .user-profile-data, .profile-user-page .description-profile {
+text-align: center;
+padding: 0 1.5em; 
+}
+.profile-user-page .user-profile-data h1 {
+font-family: "Lato", sans-serif;
+margin-top: 0.35em;
+color: #292f33;
+margin-bottom: 0; 
+}
+.profile-user-page .user-profile-data p {
+font-family: "Lato", sans-serif;
+color: #8899a6; 
+font-size: 1.1em;
+margin-top: 0;
+margin-bottom: 0.5em; 
+}
+.profile-user-page .description-profile {
+color: #75787b;
+font-size: 0.98em; 
+}
+.profile-user-page .data-user {
+font-family: "Quicksand", sans-serif;
+margin-bottom: 0;
+cursor: pointer;
+padding: 0;
+list-style: none;
+display: table;
+width: 100.15%; 
+}
+.profile-user-page .data-user li {
+margin: 0;
+padding: 0;
+width: 33.33334%;
+display: table-cell;
+text-align: center;
+border-left: 0.1em solid transparent; 
+}
+.profile-user-page .data-user li:first-child {
+border-left: 0; 
+}
+.profile-user-page .data-user li:first-child a {
+border-bottom-left-radius: 0.3rem; 
+}
+.profile-user-page .data-user li:last-child a {
+border-bottom-right-radius: 0.3rem; 
+}
+.profile-user-page .data-user li a, .profile-user-page .data-user li strong {
+display: block; 
+}
+.profile-user-page .data-user li a {
+background-color: #f7f7f7;
+border-top: 1px solid rgba(242,242,242,0.5);
+border-bottom: .2em solid #f7f7f7;
+box-shadow: inset 0 1px 0 rgba(255,255,255,0.4),0 1px 1px rgba(255,255,255,0.4);
+padding: .93em 0;
+color: #46494c; 
+}
+.profile-user-page .data-user li a strong, .profile-user-page .data-user li a span {
+font-weight: 600;
+line-height: 1; 
+}
+.profile-user-page .data-user li a strong {
+font-size: 2em; 
+}
+.profile-user-page .data-user li a span {
+color: #717a7e; 
+}
+.profile-user-page .data-user li a:hover {
+background: gray;
+border-bottom: .2em solid black;
+color: white; 
+}
+.profile-user-page .data-user li a:hover span {
+color: white; 
+}
+
+footer h4 {
+display: block;
+text-align: center;
+clear: both;
+font-family: "Coda", sans-serif;
+color: #566965;
+line-height: 6;
+font-size: 1em;
+}
+footer h4 a {
+text-decoration: none;
+color: #3498db;
+}
+
+
+
+
+
+.nav-page-container nav i{
+    position:absolute;
+    transform:  translate(833px, -32px);
+    font-size: 30px;
+    color:white;
+  }
+
+
+
+.layer{
+    width: 100%;
+    height: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), black);
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+    text-align: center;
+    font-size: 14px;
+    transition: height 0.5s;
+}
+
+.layer h3, p{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    color: white;
+    text-align: center;
+}
+
+.layer a{
+    margin-top: 20px;
+    color: #545454;
+    text-decoration: none;
+    font-size: 25px;
+    line-height: 60px;
+    background: #fff;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+
+.work:hover img{
+    transform: scale(1.1);
+}
+
+.work:hover .layer{
+    height: 100%;
+}
+
+.btn{
+    display: block;
+    margin: 50px auto;
+    width: fit-content;
+    border: 1px solid white;
+    padding: 14px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: black;
+    transition: background 0.5s;
+}
+
+.btn:hover{
+    color:white;
+    background: Black;
+    
+}
+
+.sub-title{
+    margin-top: 50px;
+}
+
+
+.logo {
+    width: 65px;
+    transform: translate(-907px, -14px);
+    vertical-align: middle;
+    position:absolute;
+}
+
+
+
+nav ul {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%; 
+    margin-left: -507px;
+}
+
+nav ul li {
+    margin: 5px 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    position: relative;
+}
+
+nav ul li a::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background: gray;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.2s;
+}
+
+nav ul li a:hover::after {
+    width: 100%;
+}
+
+.nav-page-container{
+    padding: 18px 10%;
+    border:2px solid black;
+    box-sizing: border-box;
+    justify-content: center;
+    margin-top: 10px;
+    background-color:#202020;
+}
+
+.text-container {
+    width: 150%;
+}
+
+
+nav-container{
+    width: 100%;
+    height: 100vh;    margin-top: -90px;
+    
+   
+}
+
+
+
+
+
+
+
+.dropdown:hover .dropdown-content,
+.dropdown-content:hover {
+    display: block;
+}
+  
+  /* Style the dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Style the links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: gray;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Position the dropdown content */
+  .dropdown-content {
+    right: 0;
+    top: calc(100% + -915px);
+  }

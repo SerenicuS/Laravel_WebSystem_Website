@@ -21,7 +21,9 @@
                     <li><a href ="{{ route('job') }}"> Available Jobs </a></li>
                     <li><a href ="{{ route('contact') }}"> Contact Us </a></li>
                 </ul>
-                <i class="fa-regular fa-user"></i>
+                <a href="your_link_here" style="color: inherit; text-decoration: none;">
+                    <i class="fa-regular fa-user"></i>
+                </a>
             </nav>
 </div>
 
@@ -138,28 +140,31 @@
       </a>
     </div>
     
-    <h1>Part Time - Financial Accountant (20-24 hrs per week) Job</h1>
+    <h1>Bank Database Administrator </h1>
     <div class="job-body">
       <h2>Job Description</h2>
-      <p>We look to positively impact the lives we touch by making a difference each day. Change drives our business each and every day and our culture allows us to manage and embrace change by establishing core values:</p>
+      <p>Bank Databse Administrator is an individual or person responsible for controlling, maintaining, coordinating, and operating a database management system, this requires:</p>
       <ul>
-        <li>Courage - The courage to do the right thing every day</li>
-        <li>Ownership - We personally own each commitment and issue we touch</li>
-        <li>Respect - Respect for each team member will result in respect for all our stakeholders</li>
-        <li>Excellence - Average is never good enough - what difference did you make today.</li>
+        <li>Attendance - Going on-site are only required once a month.</li>
+        <li>Proper Equipment - A computer installed with proper softwares and hardware for maintaining and working with the bank's database.</li>
+        <li>Communication - Can communicate properly, it can be texts and emails, but it is not required to partake in video calls.</li>
+        <li>Skill and competence - Has advanced expertise in the particular field of handling data .</li>
       </ul>
       <h2>Important Notes</h2>
-      <p>We look to positively impact the lives we touch by making a difference each day. Change drives our business each and every day and our culture allows us to manage and embrace change by establishing core values:</p>
+      <p>Want this job? Please click "Apply Job" and wait for our message, we will send a message to your email for confirmation and your date of your interview</p>
       <div class="details">
         <p class="job-payrange"><strong>Pay</strong>: $13 to $17.50/hour</p>
-        <p class="date"><strong>Posted</strong>: <span itemprop="datePosted">04/29/2014</span></p>
-        <p class="job-status"><strong>Job Status</strong>: <span itemprop="employmentType">Full Time, Part Time</span></p>
+        <p class="date"><strong>Posted</strong>: <span itemprop="datePosted">04/29/2024</span></p>
+        <p class="job-status"><strong>Job Status</strong>: <span itemprop="employmentType">Full Time</span></p>
       </div>
-      <div class="map"><img src="https://maps.google.com/maps/api/staticmap?size=840x200&zoom=13&scale=2&sensor=false&markers=icon:http://imgsg.jobing.com/2011/mapmark.png|38.898748,-77.037684"></div>
+      <div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14523.47115753421!2d125.60226691478914!3d7.069114816972225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32f96d78af7ef2b3%3A0x9b0dc1fb35139450!2sLandbank%20Davao-Recto!5e0!3m2!1sen!2sph!4v1714811214116!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
     </div>
-      <h3>Apply Form</h3>
-  </div>
+  
 </div>
+   
+    
+  </div>
+
 
 
      

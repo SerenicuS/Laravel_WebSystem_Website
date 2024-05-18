@@ -16,7 +16,8 @@
                     <h1> We Believe</h1>
                     <h4><em> Providing Extraordinary to Unique Individuals</em></h4>
                     <h2>Login</h2>
-                    <form action="{{ route('home') }}" method="POST">
+                    <form action="{{ route('custom.login') }}" method="POST">
+                    @csrf 
                         <div class="email-container">
                             <i class="fa-solid fa-envelope"></i>
                             <label for="email">Email:</label>

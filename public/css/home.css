@@ -8,15 +8,17 @@
 
 .logo {
     width: 65px;
-    transform: translate(-150px, -14px);
+    transform: translate(-159px, -9px);
     vertical-align: middle;
     position:absolute;
 }
 
+
 .nav-page-container nav i{
     position:absolute;
-    transform:  translate(1580px, -37px);
+    transform:  translate(1581px, -36px);
     font-size: 30px;
+    text-decoration: none;
 }
 
 
@@ -37,10 +39,11 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+
     text-decoration: none;
     font-size: 24px;
     position: relative;
+    color: white !important;
 }
 
 nav ul li a::after {
@@ -52,10 +55,12 @@ nav ul li a::after {
     left: 0;
     bottom: -6px;
     transition: 0.2s;
+    
 }
 
 nav ul li a:hover::after {
     width: 100%;
+    
 }
 
 .nav-page-container{
@@ -63,6 +68,7 @@ nav ul li a:hover::after {
     border:2px solid black;
     box-sizing: border-box;
     justify-content: center;
+    background-color:#202020;
 }
 
 /* hero page*/
@@ -98,7 +104,7 @@ nav ul li a:hover::after {
     width: 80%;
     height:auto;
     margin-left: 300px;
-    margin-top: 135px;
+    margin-top: 170px;
 }
 
 

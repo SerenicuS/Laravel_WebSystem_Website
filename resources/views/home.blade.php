@@ -26,7 +26,9 @@
                     <li><a href ="{{ route('job') }}"> Available Jobs </a></li>
                     <li><a href ="{{ route('contact') }}"> Contact Us </a></li>
                 </ul>
-                <i class="fa-regular fa-user"></i>
+                <a href="{{ route('usersection') }}" style="color: inherit; text-decoration: none;">
+                    <i class="fa-regular fa-user"></i>
+                </a>
             </nav>
             </div>
 
