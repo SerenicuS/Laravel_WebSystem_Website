@@ -20,21 +20,26 @@
                             <th>Action</th> <!-- New column for delete button -->
                         </thead>
                         <tbody>
-                            @foreach($users as $user) <!-- Start of loop -->
-                            <tr>
-                                <td>{{ $user->id }}</td>
-                                <td>{{ $user->email }}</td>
-                                <td>{{ $user->role }}</td>
-                                <td> <!-- Form for delete button -->
-                                    <form action="{{ route('users.delete', $user->id) }}" method="POST">
-                                        @csrf
-                                        @method('DELETE')
-                                        <button type="submit" class="btn btn-danger">Delete</button>
-                                    </form>
-                                </td>
-                            </tr>
-                            @endforeach <!-- End of loop -->
-                        </tbody>
+                        <tbody>
+    @foreach($jobs as $job) <!-- Start of loop -->
+    <tr>
+        <td>{{ $job->jobs_available_ID }}</td>
+        <td>{{ $job->companyName }}</td>
+        <td>{{ $job->companyJobPosition }}</td>
+        <td>{{ $job->companyJobLocation }}</td>
+        <td>{{ $job->job_salary }}</td>
+        <td>{{ $job->description_text }}</td>
+        <!-- Add more columns as needed -->
+        <td> <!-- Form for delete button -->
+            <form action="{{ route('jobs.destroy', $job->jobs_available_ID) }}" method="POST">
+                @csrf
+                @method('DELETE')
+                <button type="submit" class="btn btn-danger">Delete</button>
+            </form>
+        </td>
+    </tr>
+    @endforeach <!-- End of loop -->
+</tbody>
                     </table>
                 </div>
             </div>

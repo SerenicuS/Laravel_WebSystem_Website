@@ -17,10 +17,13 @@ body, html {
     margin-top: 50px;
 }
 
-.work{
+.work {
     border-radius: 10px;
     position: relative;
     overflow: hidden;
+    width: 300px; /* Adjust width as needed */
+    height: 300px; /* Adjust height as needed */
+    padding: 20px; /* Add padding as needed */
 }
 
 .work img{

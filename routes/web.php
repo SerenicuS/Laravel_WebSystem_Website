@@ -18,7 +18,7 @@ Route::get('/', function () {
 });
 
 Route::get('/admin/dashboard', [adminController::class, 'index'])->name('admin.dashboard');
-Route::delete('/users/{user}', [UserController::class, 'destroy'])->name('users.delete');
+Route::delete('/jobs/{id}', [JobController::class, 'destroy'])->name('jobs.destroy');
 
 Route::get('/home', [HomeController::class, 'index'])->name('home');
 Route::get('/usersection', [UserSectionController::class, 'index'])->name('usersection');
